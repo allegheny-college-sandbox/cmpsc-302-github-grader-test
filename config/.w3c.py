@@ -41,7 +41,7 @@ def validate_css(endpoint: str, page: str) -> bool:
 
 def main():
 
-  pages_api = os.getenv("PAGES")
+  pages_api = os.getenv("PAGES_URL")
   data = json.loads(pages_api)
   endpoint = data["html_url"]
   page = sys.argv[1]
