@@ -1,9 +1,64 @@
 /* HTML ELEMENTS */
 
-/* TODO: Style missing tags */
+html {
+  background: #A4ACA6;
+  font-size: 14pt;
+  font-family: "Martel", serif;
+}
 
 img {
   position: relative;
+  width: 100%;
+}
+ 
+h1,footer {
+  padding: 5%;
+  margin-bottom: 0;
+  background: #EBB7B7;
+  border-radius: 10px 10px 0 0;
+  color: #FFF;
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  text-shadow: 1px 1px 1px #222222;
+}
+
+h2 {
+  border-bottom: 1px solid #222222;
+}
+
+footer {
+  background: #6B5151;
+  border-radius: 0 0 10px 10px;
+  font-size: 1em;
+  font-family: "Lato", sans-serif;
+  padding: 1%;
+}
+
+section {
+  padding: 0 5%;
+}
+
+section:last-child {
+  padding-bottom: 5%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ol > ul > li {
+  font-style: italic;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: 1px dashed;
+}
+
+a:hover {
+  border-bottom: none;
 }
 
 cite {
@@ -12,8 +67,30 @@ cite {
 
 /* IDS */
 
-/* TODO: Style ID */
+#container {
+  width: 80%;
+  background: #FFFFFF;
+  margin: 0 auto;
+  border-radius: 10px;
+}
 
 /* CLASSES */
 
-/* TODO: Style classes */
+.detail-label {
+  background: #A4ACA6;
+  border-radius: 10% 0% 0% 10%;
+  margin-right: .3em;
+  padding: .1em .3em .1em .1em
+}
+
+.detail-text {
+  font-weight: 800;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222222 ;
+  background: #EBB7B7;
+  color: #FFF;
+  border-radius: 10px;
+  white-space: nowrap;
+  padding: .1em .3em .1em 0;
+}

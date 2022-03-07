@@ -1,5 +1,44 @@
-/* TODO: Style missing tags */
+::selection {
+  color: #FFFFFF;
+  background: #0D0D0D;
+}
+
+html {
+  font-size: 12pt;
+  font-family: "Martel", serif;
+}
 
 body {
+  background: #038C7F;
   height: 100vh;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+a, a:hover, a:visited {
+  color: #0D0D0D;
+  border-bottom: 1px dashed;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: none;
+  color: #038C7F;
+}
+
+div {
+  position: relative;
+  background: #F2E7DC; 
+  padding: 1em;
+  width: 50%;
+  border-radius: 5px;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+p { 
+  color: #0D0D0D;
 }
