@@ -5,6 +5,9 @@ import os
 from os.path import exists
 from bs4 import BeautifulSoup
 
+"""
+Comment to trigger build.
+"""
 def parse_html(path: str) -> BeautifulSoup:
   with open(path, "r") as fh:
     content = fh.read()
